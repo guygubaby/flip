@@ -1,6 +1,6 @@
 {
   "name": "@bryce-loskie/flip",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "packageManager": "pnpm@7.26.2",
   "description": "transfomer to convert js module",
   "author": "guygubaby <guygubaby@gmail.com>",
