@@ -1,11 +1,15 @@
 # ts-starer
 
-[![NPM version](https://img.shields.io/npm/v/[name]?color=a1b858&label=)](https://www.npmjs.com/package/[name])
+[![NPM version](https://img.shields.io/npm/v/@bryce-loskie/flip?color=a1b858&label=)](https://www.npmjs.com/package/@bryce-loskie/flip)
 
 ## Get Started
 
 ```bash
-npx degit guygubaby/ts-starter [local-folder]
+pnpm i @bryce-loskie/flip
+```
+
+```ts
+import { transformCMD2AMD, transformESM2AMD } from '@bryce-loskie/flip'
 ```
 
 ## License
