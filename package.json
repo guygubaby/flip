@@ -2,7 +2,7 @@
   "name": "@bryce-loskie/flip",
   "version": "0.0.0",
   "packageManager": "pnpm@7.26.2",
-  "description": "",
+  "description": "transfomer to convert js module",
   "author": "guygubaby <guygubaby@gmail.com>",
   "license": "MIT",
   "funding": "https://github.com/sponsors/guygubaby",
@@ -47,6 +47,11 @@
     "test": "vitest",
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "acorn": "^8.8.2",
+    "astring": "^1.8.4",
+    "estree-walker": "^3.0.3"
+  },
   "devDependencies": {
     "@bryce-loskie/eslint-config": "^2.0.12",
     "@bryce-loskie/tc": "^0.1.5",
@@ -57,10 +62,5 @@
     "tsx": "^3.12.2",
     "typescript": "^4.9.4",
     "vitest": "^0.28.3"
-  },
-  "dependencies": {
-    "acorn": "^8.8.2",
-    "astring": "^1.8.4",
-    "estree-walker": "^3.0.3"
   }
 }
